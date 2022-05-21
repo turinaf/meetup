@@ -30,8 +30,10 @@
     display: block;
     width: fit-content;
     margin: 0 auto;
-    color: #4a033c;
-    border: 1px solid #ef0fc3;
+    background-color: #fff;
+    color: #cc2062;
+    border: 1px solid #fcb8d2;
     border-radius: 4px;
     padding: 10px;
+    cursor: pointer;
 }
