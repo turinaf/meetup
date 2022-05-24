@@ -1,5 +1,6 @@
 .item{
     margin: 1rem 0;
+    
 }
 
 .image{
@@ -20,6 +21,8 @@
 .content {
     text-align: center;
     padding: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
 }
 
 .content h3{
