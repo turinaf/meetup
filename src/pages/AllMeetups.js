@@ -28,6 +28,12 @@ const DUMMY_DATA = [
 ];
 
 function AllMeetupsPage(){
+    fetch('https://react-tut-58c6d-default-rtdb.asia-southeast1.firebasedatabase.app/meetups.json'
+    ).then(response => {
+        return response.json();
+    }).then(data => {
+        
+    });
     return <section>
         <h1>All meetups</h1>
         <MeetupList meetups={DUMMY_DATA} />
